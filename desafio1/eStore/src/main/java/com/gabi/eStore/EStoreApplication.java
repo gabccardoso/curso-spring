@@ -15,9 +15,6 @@ public class EStoreApplication implements CommandLineRunner {
     @Autowired
     private OrderService orderService;
 
-    @Autowired
-    private ShippingService shippingService;
-
 	public static void main(String[] args) {
 		SpringApplication.run(EStoreApplication.class, args);
 	}
@@ -26,6 +23,6 @@ public class EStoreApplication implements CommandLineRunner {
     public void run(String ...args){
         Order order = new Order(1034, 150.00, 20.00);
         System.out.println("Pedido código: " + order.getCode() + "Valor total: R$ "+
-                (this.orderService.valorComDesconto(order.getBasic(), order.getDiscount())+this.shippingService.frete(order.getBasic())));
+                (this.orderService.valorTotal(order.getBasic(), order.getDiscount())));
     }
 }

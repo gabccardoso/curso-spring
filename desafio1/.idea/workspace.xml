@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64150e18-6d21-475a-be0b-33c888c6bf29" name="Changes" comment="" />
+    <list default="true" id="64150e18-6d21-475a-be0b-33c888c6bf29" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/eStore/src/main/java/com/gabi/eStore/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/src/main/java/com/gabi/eStore/Service/OrderService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,7 +35,7 @@
     <option name="vmOptions" value="-Djavax.net.ssl.trustStore=/home/gabi/rootca.jks -Djavax.net.ssl.trustStorePassword=password" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QOU7VzUm5cYwAMrqrGHhio3HV9" />
   <component name="ProjectViewState">
@@ -40,7 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/gabi/Documents/FIAP/projetos/calculadora-energia"
+    "last_opened_file_path": "/home/gabi/Documents/Curso Spring/curso-spring/desafio1/eStore"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
